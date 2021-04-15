@@ -1,9 +1,9 @@
 import React from 'react';
-import AboutUs from './Components/AboutSection';
+import UsAbout from './Pages/UsAbout';
 function App() {
   return (
     <div className="App">
-      <AboutUs/>
+      <UsAbout/>
     </div>
   );
 }
