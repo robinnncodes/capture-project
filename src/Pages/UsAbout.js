@@ -1,14 +1,16 @@
 import React from "react";
 import ServicesSection from "../Components/ServicesSection";
 import AboutSection from "../Components/AboutSection";
-import FAQSection from '../Components/FAQSection';
+import FAQSection from "../Components/FAQSection";
+
 const UsAbout = () => {
   return (
     <>
-    {/* fragment */} 
+      {/* fragment */}
+
       <AboutSection />
       <ServicesSection />
-      <FAQSection/>
+      <FAQSection />
     </>
   );
 };

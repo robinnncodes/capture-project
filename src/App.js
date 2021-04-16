@@ -1,8 +1,10 @@
 import React from 'react';
 import UsAbout from './Pages/UsAbout';
+import GlobalStyle from './Components/GlobalStyle'
 function App() {
   return (
     <div className="App">
+      <GlobalStyle/>
       <UsAbout/>
     </div>
   );
