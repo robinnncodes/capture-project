@@ -32,6 +32,10 @@ const GlobalStyle = createGlobalStyle`
     h3 {
         color:white;
     }
+    h4 {
+        font-size: 2rem;
+        font-weight: bolder;
+    }
     p {
         padding:3rem 0rem;
         color: #ccc;
