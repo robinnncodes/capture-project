@@ -1,4 +1,3 @@
-import React from "react";
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
@@ -9,9 +8,11 @@ const GlobalStyle = createGlobalStyle`
     }
     body {
         background: #1b1b1b;
+        font-family:'Inter', sans-serif;
     }
     button {
         font-weight:bold;
+        font-family:'Inter', sans-serif;
         font-size:1.1.rem;
         cursor:pointer;
         padding:1rem 2rem;
